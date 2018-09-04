@@ -1,8 +1,7 @@
 # slider
 Sliding verification (compatible with mobile terminals)
-<pre>
 js/css引入<br/>
-\<link rel="stylesheet" href="css/jquery.slider.css" /\><br/>
+\<link rel="stylesheet" href="css/jquery.slider.css" /\>
 <script type="text/javascript" src="js/jquery.min.js"></script><br/>
 <script type="text/javascript" src="js/jquery.slider.min.js"></script><br/>
 html模板<br/>
@@ -31,7 +30,7 @@ script配置<br/>
 \</script\>
 <br />
 <br />
-
+<p>
 可选参数
 $("#slider2").slider({
   width: 340, // width
@@ -48,4 +47,4 @@ $("#slider2").slider({
     $("#result2").text(result);
   }
 });
-</pre>
+</p>
