@@ -30,7 +30,7 @@ script配置<br/>
 \</script\>
 <br />
 <br />
-<p>
+<pre>
 可选参数
 $("#slider2").slider({
   width: 340, // width
@@ -47,4 +47,4 @@ $("#slider2").slider({
     $("#result2").text(result);
   }
 });
-</p>
+</pre>
