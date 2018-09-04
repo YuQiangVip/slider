@@ -2,7 +2,7 @@
 Sliding verification (compatible with mobile terminals)
 
 js/css引入
-<link rel="stylesheet" href="css/jquery.slider.css" />
+<link rel="stylesheet" href="css/jquery.slider.css" /><br />
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/jquery.slider.min.js"></script>
 
