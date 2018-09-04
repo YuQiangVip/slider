@@ -1,5 +1,6 @@
 # slider
-Sliding verification (compatible with mobile terminals)<br/>
+Sliding verification (compatible with mobile terminals)
+<pre>
 js/css引入<br/>
 \<link rel="stylesheet" href="css/jquery.slider.css" /\><br/>
 <script type="text/javascript" src="js/jquery.min.js"></script><br/>
@@ -30,20 +31,21 @@ script配置<br/>
 \</script\>
 <br />
 <br />
-<pre>
+
+可选参数
 $("#slider2").slider({
-width: 340, // width
-height: 40, // height
-sliderBg:"rgb(134, 134, 131)",// 滑块背景颜色
-color:"#fff",// 文字颜色
-fontSize: 14, // 文字大小
-bgColor: "#33CC00", // 背景颜色
-textMsg: "按住滑块，拖拽验证", // 提示文字
-successMsg: "验证通过了哦", // 验证成功提示文字
-successColor: "red", // 滑块验证成功提示文字颜色
-time: 400, // 返回时间
-callback: function(result) { // 回调函数，true(成功),false(失败)
-$("#result2").text(result);
-}
+  width: 340, // width
+  height: 40, // height
+  sliderBg:"rgb(134, 134, 131)",// 滑块背景颜色
+  color:"#fff",// 文字颜色
+  fontSize: 14, // 文字大小
+  bgColor: "#33CC00", // 背景颜色
+  textMsg: "按住滑块，拖拽验证", // 提示文字
+  successMsg: "验证通过了哦", // 验证成功提示文字
+  successColor: "red", // 滑块验证成功提示文字颜色
+  time: 400, // 返回时间
+  callback: function(result) { // 回调函数，true(成功),false(失败)
+    $("#result2").text(result);
+  }
 });
 </pre>
